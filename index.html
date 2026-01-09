@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head> <!-- This site was created in Taptop. https://taptop.pro/ -->
+  <meta content="Taptop" name="generator">
+  <meta charset="utf-8">
+  <meta name="robots" content="all">
+  <title>Companion — Replica</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.local/">
+  <meta name="twitter:card" content="summary">
+  <meta name="description" content="Companion">
+  <meta name="keywords" content="Companion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="stylesheet" href="styles.css">
+  
+
+  <!-- Libraries similar to original -->
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+  <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="bar"><span></span></div>
+  </div>
+
+  <header id="siteHeader">
+    <div class="logo">Companion</div>
+    <nav class="nav">
+      <a href="#features" class="link">Features</a>
+      <a href="#steps" class="link">How it works</a>
+      <a href="#" class="btn">Get started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="kicker">Product</div>
+          <h1 id="heroTitle"><span class="word">Companion</span> <span class="word">—</span> <span class="word">A WORLD OF AI</span></h1>
+          <p class="lead">An AI-enabled smartwatch works as a smart assistant on your wrist, responding to voice commands and learning your daily habits. It provides personalized health and fitness insights using AI analysis. With smart notifications and adaptive features, it makes everyday tasks easier and more efficient.</p>
+          <div style="margin-top:18px"><a class="btn" href="#steps">See how it works</a></div>
+        </div>
+        <div class="phone" id="phoneMock" aria-hidden>
+          <div class="screen" id="phoneScreen" style="position:relative;overflow:hidden">
+            <video id="phoneVideoEl" muted playsinline preload="metadata" loop style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:12px;display:none"></video>
+            <img id="phoneVideo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AApoB9eV5wQAAAABJRU5ErkJggg==" alt="local demo" style="width:100%;height:100%;border-radius:12px;object-fit:cover;display:block"/>
+            <div id="lottieHolder" style="position:absolute;left:12px;top:12px;width:96px;height:96px;pointer-events:none"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="features-grid">
+        <div class="feature slide-in">
+          <strong>Scroll-driven visuals</strong>
+          <div style="margin-top:8px;color:var(--muted);font-size:14px">Sections animate when scrolled into view.</div>
+        </div>
+        <div class="feature slide-in">
+          <strong>Lightweight</strong>
+          <div style="margin-top:8px;color:var(--muted);font-size:14px">Minimal JS, jQuery only for parity with original.</div>
+        </div>
+        <div class="feature slide-in">
+          <strong>Replaceable assets</strong>
+          <div style="margin-top:8px;color:var(--muted);font-size:14px">Swap images, videos, and Lottie JSON easily.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="for-whom" class="for-whom-section slide-in" aria-label="Who needs Companion">
+      <div style="max-width:1100px;margin:30px auto;padding:0 20px">
+        <h2 style="font-size:22px;margin-bottom:12px">Companion is for everyone</h2>
+        <div class="for-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+          <div class="for-item card" tabindex="0">
+            <div class="for-img" style="width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#046dd6,#163b6b);margin-bottom:8px"></div>
+            <strong style="display:block">For those experiencing Loneliness and Social Isolation</strong>
+          </div>
+          <div class="for-item card" tabindex="0">
+            <div class="for-img" style="width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#754f95,#6b3b9a);margin-bottom:8px"></div>
+            <strong style="display:block">For those dealing with Stress and Anxiety</strong>
+          </div>
+          <div class="for-item card" tabindex="0">
+            <div class="for-img" style="width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#035c1b,#05eb69);margin-bottom:8px"></div>
+            <strong style="display:block">For those experiencing Emotional Difficulties and Crises</strong>
+          </div>
+          <div class="for-item card" tabindex="0">
+            <div class="for-img" style="width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,#5577d5,#3b6b9a);margin-bottom:8px"></div>
+            <strong style="display:block">For those who Value Anonymity and Confidentiality</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="device" class="device-section" aria-label="Device details">
+      <div class="device-inner" style="max-width:1200px;margin:40px auto;display:grid;grid-template-columns:360px 1fr;gap:30px;align-items:start;padding:0 20px">
+        <figure class="device-figure">
+          <img src="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065003.png" alt="Companion device" class="device-img" />
+          <figcaption class="device-caption">Companion is a personal AI device that learns thousands of conversations from different people with an open line of psychological support.</figcaption>
+        </figure>
+        <div>
+          <div class="for-whom card slide-in" style="margin-bottom:14px;padding:16px;border-radius:10px;background:rgba(255,255,255,0.02)">
+            <strong>For whom</strong>
+            <ul style="margin:8px 0 0;color:var(--muted);line-height:1.6">
+              <li>People looking for daily emotional & practical support</li>
+              <li>Caregivers and those checking on loved ones remotely</li>
+              <li>Busy professionals and students needing short check-ins</li>
+              <li>Individuals who want privacy-first, conversational AI</li>
+            </ul>
+          </div>
+
+          <div class="specs-grid">
+            <article class="spec slide-in" tabindex="0">
+              <h4>Form factor</h4>
+              <p>Wearable wrist device — lightweight aluminum, IP68 water resistance.</p>
+            </article>
+            <article class="spec slide-in" tabindex="0">
+              <h4>Display</h4>
+              <p>1.4" AMOLED touchscreen with adaptive brightness and always-on mode.</p>
+            </article>
+            <article class="spec slide-in" tabindex="0">
+              <h4>AI features</h4>
+              <p>On-device speech recognition, cloud personalization, mood tracking, secure local storage.</p>
+            </article>
+            <article class="spec slide-in" tabindex="0">
+              <h4>Audio & Connectivity</h4>
+              <p>Bone-conduction speaker, haptic feedback, Bluetooth 5.2, Wi‑Fi, optional LTE.</p>
+            </article>
+            <article class="spec slide-in" tabindex="0">
+              <h4>Battery</h4>
+              <p>Up to 2 days typical use; 7 days on low-power mode. Fast USB-C charging.</p>
+            </article>
+          </div>
+
+          <div class="how-it-works slide-in" style="margin-top:18px">
+            <h3 style="font-size:20px;margin-bottom:12px">How does this watch work?</h3>
+            <div class="how-grid" style="display:grid;grid-template-columns:1fr 320px;gap:16px;align-items:start">
+              <ol class="how-list" style="margin:0;padding:0;list-style:none;">
+                <li class="how-step" data-img="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065350.png" tabindex="0">
+                  <div class="step-index">1</div>
+                  <div class="step-body"><strong style="font-size:16px">Set up:</strong><p style="margin:6px 0;color:var(--muted);font-size:15px">Pair with the companion app and choose preferences.</p></div>
+                </li>
+                <li class="how-step" data-img="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065457.png" tabindex="0">
+                  <div class="step-index">2</div>
+                  <div class="step-body"><strong style="font-size:16px">Listen &amp; Sense:</strong><p style="margin:6px 0;color:var(--muted);font-size:15px">The device monitors prompts and scheduled check-ins locally.</p></div>
+                </li>
+                <li class="how-step" data-img="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065505.png " tabindex="0">
+                  <div class="step-index">3</div>
+                  <div class="step-body"><strong style="font-size:16px">Conversation:</strong><p style="margin:6px 0;color:var(--muted);font-size:15px">AI responds with supportive dialogue and suggested actions.</p></div>
+                </li>
+                <li class="how-step" data-img="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065511.png" tabindex="0">
+                  <div class="step-index">4</div>
+                  <div class="step-body"><strong style="font-size:16px">Personalization:</strong><p style="margin:6px 0;color:var(--muted);font-size:15px">Optional anonymized sync improves personalization over time.</p></div>
+                </li>
+                <li class="how-step" data-img="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065525.png" tabindex="0">
+                  <div class="step-index">5</div>
+                  <div class="step-body"><strong style="font-size:16px">Review &amp; act:</strong><p style="margin:6px 0;color:var(--muted);font-size:15px">Use the app to review summaries, insights, and adjust settings.</p></div>
+                </li>
+              </ol>
+              <div class="how-media" style="width:320px;height:220px;border-radius:12px;overflow:hidden;background:#08102a;display:grid;place-items:center">
+                <img id="howMedia" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AApoB9eV5wQAAAABJRU5ErkJggg==" alt="step image" style="width:100%;height:100%;object-fit:cover;opacity:1;transition:opacity .45s ease" />
+              </div>
+            </div>
+            <p style="color:var(--muted);font-size:13px;margin-top:8px"><strong>Note:</strong> Companion provides supportive conversations but is not a replacement for professional mental health care.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps" class="steps">
+      <div class="step slide-in"><div class="marker">1</div><div><strong>Preloader</strong><div style="color:var(--muted);font-size:14px">Progress bar fades after load.</div></div></div>
+      <div class="step slide-in"><div class="marker">2</div><div><strong>Header reveal</strong><div style="color:var(--muted);font-size:14px">Header shows/hides based on scroll direction.</div></div></div>
+      <div class="step slide-in"><div class="marker">3</div><div><strong>Phone mock interactions</strong><div style="color:var(--muted);font-size:14px">Phone content updates as you scroll the steps.</div></div></div>
+    </section>
+
+    <section id="numbers" style="padding:40px 20px 100px;">
+      <div style="max-width:900px;margin:0 auto;display:flex;gap:20px;justify-content:space-between;align-items:center;">
+        <div style="text-align:center; font-size: 50px;"><div class="num" data-target="120">0</div><div style="color:var(--muted)">Integrations</div></div>
+        <div style="text-align:center; font-size: 50px;"><div class="num" data-target="95">0</div><div style="color:var(--muted)">Satisfaction</div></div>
+        <div style="text-align:center; font-size: 50px;"><div class="num" data-target="2500">0</div><div style="color:var(--muted)">Deploys</div></div>
+      </div>
+    </section>
+
+    <section class="cards-grid" aria-label="Highlights">
+      <article class="card slide-in" tabindex="0">
+        <img class="card-img" src="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065849.png" alt=""/>
+        <div class="overlay"></div>
+        <div class="card-body">
+          <div class="card-title">Seamless Sync</div>
+          <div class="card-desc">Keep your team updated in real time with minimal setup.</div>
+        </div>
+      </article>
+      <article class="card slide-in" tabindex="0">
+        <img class="card-img" src="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065922.png" alt=""/>
+        <div class="overlay"></div>
+        <div class="card-body">
+          <div class="card-title">Insights & Cards</div>
+          <div class="card-desc">Digestible cards that surface actions and metrics at a glance.</div>
+        </div>
+      </article>
+      <article class="card slide-in" tabindex="0">
+        <img class="card-img" src="c:\Users\just_Lithish\OneDrive\Pictures\Screenshots 1\Screenshot 2026-01-09 065943.png" alt=""/>
+        <div class="overlay"></div>
+        <div class="card-body">
+          <div class="card-title">One-click Actions</div>
+          <div class="card-desc">Make decisions faster with actionable suggestions.</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Companion
+  </footer>
+
+  <script>
+    // Preloader: hide after window load
+    (function(){
+      const pre = document.getElementById('preloader');
+      window.addEventListener('load', ()=>{
+        pre.classList.add('hidden');
+        setTimeout(()=>pre.remove(),700);
+      });
+      // fallback
+      setTimeout(()=>{ if(pre && !pre.classList.contains('hidden')){ pre.classList.add('hidden'); setTimeout(()=>pre.remove(),700);} }, 4000);
+    })();
+
+    // Header reveal/hide (direction + threshold)
+    (function(){
+      const header = document.getElementById('siteHeader');
+      let lastY = window.scrollY, ticking=false, shown=false;
+      function onScroll(){
+        const y = window.scrollY;
+        if(y < 80){ header.classList.add('show'); shown=true; }
+        else if(y > lastY && shown){ header.classList.remove('show'); shown=false; }
+        else if(y < lastY && !shown){ header.classList.add('show'); shown=true; }
+        lastY = y;
+      }
+      window.addEventListener('scroll', ()=>{ if(!ticking){ requestAnimationFrame(()=>{ onScroll(); ticking=false }); ticking=true; } });
+      if(window.scrollY < 100) header.classList.add('show');
+    })();
+
+    // Steps -> phone mock updates using IntersectionObserver
+    (function(){
+      const phone = document.getElementById('phoneScreen');
+      const phoneMock = document.getElementById('phoneMock');
+      const steps = document.querySelectorAll('.step');
+      const texts = [
+        'Welcome to Companion — your assistant for fast decisions.',
+        'Sync across devices and keep your team aligned.',
+        'Insight cards, quick actions, and in-app guidance.'
+      ];
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+          const idx = Array.from(steps).indexOf(entry.target);
+          if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+            if(idx >= 0) phone.textContent = texts[idx] || 'Preview';
+            phoneMock.classList.add('scrolled');
+          } else {
+            entry.target.classList.remove('visible');
+          }
+        });
+      },{threshold:0.6});
+      steps.forEach(s=>io.observe(s));
+    })();
+
+    // Smooth internal links
+    (function(){
+      document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', (e)=>{
+          const t = document.querySelector(a.getAttribute('href'));
+          if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
+        });
+      });
+    })();
+
+    // Lottie placeholder: try to load a local JSON if available
+    (function(){
+      const holder = document.getElementById('lottieHolder');
+      // load local Lottie if present
+      try{
+        lottie.loadAnimation({ container: holder, renderer: 'svg', loop: true, autoplay: true, path: 'assets/sample-lottie.json' });
+      }catch(e){ if(holder) holder.textContent = ''; }
+    })();
+
+    // Video autoplay when phone is visible (muted/autoplay policy friendly)
+    (function(){
+      const video = document.getElementById('phoneVideoEl');
+      const img = document.getElementById('phoneVideo');
+      if(!video) return;
+      const localSrc = 'assets/phone-demo.mp4';
+      const fallbackSrc = 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4';
+      // try local first
+      video.src = localSrc;
+      // if local fails, switch to fallback
+      video.addEventListener('error', ()=>{ if(video.src !== fallbackSrc){ video.src = fallbackSrc; } });
+
+      // observer to play/pause when visible
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){
+            // attempt to play; muted allows autoplay
+            video.style.display = 'block'; img.style.display = 'none';
+            const p = video.play();
+            if(p && p.catch){ p.catch(()=>{ /* autoplay prevented; keep image */ video.style.display='none'; img.style.display='block'; }); }
+          } else {
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+      },{threshold:0.6});
+      io.observe(document.getElementById('phoneMock'));
+    })();
+
+    // Staggered headline word animation
+    (function(){
+      const title = document.getElementById('heroTitle');
+      if(!title) return;
+      const words = Array.from(title.querySelectorAll('.word'));
+      function showWords(){
+        words.forEach((w,i)=> setTimeout(()=> w.classList.add('show'), i * 90));
+      }
+      // If hero is visible, animate when scrolled into view
+      const hero = document.querySelector('.hero');
+      if('IntersectionObserver' in window && hero){
+        const io = new IntersectionObserver((entries, o)=>{
+          entries.forEach(e=>{ if(e.isIntersecting){ showWords(); o.disconnect(); } });
+        },{threshold:0.4});
+        io.observe(hero);
+      } else {
+        window.addEventListener('load', showWords);
+      }
+    })();
+
+    // MutationObserver: remove any injected taptop links
+    (function(){
+      const obs = new MutationObserver((mutations)=>{
+        for(const m of mutations){
+          m.addedNodes && m.addedNodes.forEach(n=>{
+            try{ if(n.nodeType===1){ const a = n.querySelectorAll? n.querySelectorAll('a') : []; if(n.tagName==='A' && n.href && n.href.includes('taptop.pro')) n.remove(); a.forEach(el=>{ if(el.href && el.href.includes('taptop.pro')) el.remove(); }); }}catch(e){}
+          });
+        }
+      });
+      obs.observe(document.body,{childList:true,subtree:true});
+    })();
+
+    // Number counters when visible
+    (function(){
+      const nums = document.querySelectorAll('.num');
+      if(!nums.length) return;
+      const io = new IntersectionObserver((entries, o)=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){
+            const el = entry.target; const target = +el.dataset.target || 0; const dur = 1200; const start = 0; const step = Math.ceil(target / (dur / 16));
+            let cur = start; const t = setInterval(()=>{
+              cur += step; if(cur >= target){ el.textContent = target; clearInterval(t); } else el.textContent = cur; }, 16);
+            o.unobserve(el);
+          }
+        });
+      },{threshold:0.6});
+      nums.forEach(n=>io.observe(n));
+    })();
+
+    // Simple phone parallax on scroll
+    (function(){
+      const phone = document.getElementById('phoneMock');
+      if(!phone) return;
+      window.addEventListener('scroll', ()=>{
+        const sc = window.scrollY; const t = Math.min(Math.max((sc/800), 0), 0.06);
+        phone.style.transform = `translateY(${ -t * 100 }px)`;
+      });
+    })();
+
+    // Slide-in observer for elements with .slide-in
+    (function(){
+      const nodes = document.querySelectorAll('.slide-in');
+      if(!nodes.length) return;
+      const io = new IntersectionObserver((entries, o)=>{
+        entries.forEach(entry=>{
+          if(entry.isIntersecting){ entry.target.classList.add('in'); o.unobserve(entry.target); }
+        });
+      },{threshold:0.28});
+      nodes.forEach(n=>io.observe(n));
+    })();
+
+    // Card tilt interaction
+    (function(){
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card=>{
+        card.addEventListener('mousemove', e=>{
+          const rect = card.getBoundingClientRect();
+          const x = (e.clientX - rect.left) / rect.width;
+          const y = (e.clientY - rect.top) / rect.height;
+          const rx = (y - 0.5) * 8;
+          const ry = (x - 0.5) * -10;
+          card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(8px)`;
+        });
+        card.addEventListener('mouseleave', ()=>{ card.style.transform = ''; });
+        card.addEventListener('mouseenter', ()=>{ card.style.transition = 'transform .12s ease'; });
+      });
+    })();
+
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html> 
